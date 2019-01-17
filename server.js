@@ -16,6 +16,10 @@ http.createServer((req,res) =>{
     } catch (error) {
         routes['home'](req,res);
     }
+<<<<<<< HEAD
+=======
+    
+>>>>>>> mongodb
 
 }).listen(3000);
 console.log('服务器启动成功');

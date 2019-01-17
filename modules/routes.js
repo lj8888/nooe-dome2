@@ -87,7 +87,11 @@ module.exports = {
         req.on('data',(chunk)=>{
             rawData += chunk;
         })
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> mongodb
         req.on('end',() =>{
             var params = qs.parse(rawData);
             MongoClient.connect(url, { useNewUrlParser: true },(error,client) => {
